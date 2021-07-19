@@ -229,30 +229,8 @@ public class JobOffer {
         this.remote = remote;
     }
 
-    public JobOffer(String title) {
-        this.title = title;
-        this.street = street;
-        this.city = city;
-        this.countryCode = countryCode;
-        this.addressText = addressText;
-        this.markerIcon = markerIcon;
-        this.workplaceType = workplaceType;
-        this.companyName = companyName;
-        this.companyUrl = companyUrl;
-        this.companySize = companySize;
-        this.experienceLevel = experienceLevel;
-        this.latitude = latitude;
-        this.longitude = longitude;
-        this.publishedAt = publishedAt;
-        this.remoteInterview = remoteInterview;
-        this.id = id;
-        this.employmentTypes = employmentTypes;
-        this.companyLogoUrl = companyLogoUrl;
-        this.skills = skills;
-        this.remote = remote;
+    public JobOffer() {
     }
-
-
 
     @Override
     public String toString() {
